@@ -17,3 +17,9 @@ Early diagnosis is essential in brain tumors, which divides into three parts, be
 **Images with tumors.**
 
 ![yes brain tumor](https://github.com/elif-t/ML_brain_tumor/blob/main/yes_tumor.png)
+
+**Output shapes after layers applied to the images.**
+
+![layer](https://github.com/elif-t/ML_brain_tumor/blob/main/layer.png)
+
+
