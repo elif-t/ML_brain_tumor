@@ -22,4 +22,21 @@ Early diagnosis is essential in brain tumors, which divides into three parts, be
 
 ![layer](https://github.com/elif-t/ML_brain_tumor/blob/main/layer.png)
 
+### Results and Discussion
+
+An approach for brain tumor classification is presented by applying a CNN model to MR images. The Cancer Genome Atlas Low-Grade Glioma (TCGA-LGG) that contained images from 110 participants and three different types of image acquisition sequences are used in this examination and classified into two classes where class 1 refers to tumor images and class 0 refers to non-tumor images. Eight different data augmentation methods are applied. After data augmentation, data pre-processing, and data splitting, the number of training samples is 1445, the number of validation samples is 310, and the number of test samples is 310. The final output of the proposed method using 22 numbers of epochs. First figure below, the corresponding loss is shown, and the training and validation accuracy concerning the number of epochs can be seen in second figure below. The reason that this model is applied is computational complexity and memory limitations are considered.
+
+**The training and validation loss across the epochs.**
+
+![The training and validation loss across the epochs.](https://github.com/elif-t/ML_brain_tumor/blob/main/graph1.png)
+
+
+**The training and validation accuracy across the epochs.**
+
+![The training and validation accuracy across the epochs.](https://github.com/elif-t/ML_brain_tumor/blob/main/graph2.png)
+
+### Conclusion 
+
+Finally, results were quite nice, model gave the 86.1% testing accuracy on testing samples and 0.86 f1 score on the test set. 
+
 
